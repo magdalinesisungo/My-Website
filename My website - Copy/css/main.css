@@ -33,6 +33,11 @@ h1 {
     float: right;
     font-size: 16pt;
 }
+.loveable img{
+	width: 100px;
+	height: 120px;
+	float: right;
+}
 
 .loveable ul li {
     display: inline;
@@ -115,6 +120,51 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Helvetica'; 
+}
+.facebook-icon{
+	color: #fff;
+	background-color: #3c5a99;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+	border-radius: 20px;
+
+}
+
+.twitter-icon{
+	color: #fff;
+	background-color: #38A1F3;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+	border-radius: 20px;
+
+}
+.instagram-icon{
+	color: #fff;
+	background-color: #E1306C;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	/*text-align: center;*/
+	/*display: inline-block;*/
+	/*border-radius: 20px;*/
+}
+.whatsApp-icon{
+	color: #fff;
+	background-color: rgb(37, 211, 102);
+	text-shadow: white;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+	border-radius: 20px;
+
 }
 /*#top-bar {
 	width: 100%;
