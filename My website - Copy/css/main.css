@@ -2,11 +2,12 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, sans-serif;
-	background-color: white;
-	background-color: #e5e5e5;
+	background-color: orange;
 	font-family: arial;
-
+	
 }
+
+
 #top-bar {
 	width: 100%;
 	background: #F1F1F1; 
@@ -16,9 +17,10 @@ body {
 
 
 header{
-	background-color: rgb(235,159,51);
+	/*background-color: rgb(235,159,51);*/
 	height: 50px;
 	padding-bottom: 20px;
+	color:purple;
 }
 
 h1 {
@@ -57,7 +59,7 @@ h1 {
 	font-weight: bold;
 	font-size: 13px;
 	font-family: arial;
-	color: #000; 
+	 
 }
 
 #loveable ul li a:link.last-link {
