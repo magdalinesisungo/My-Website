@@ -2,8 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, sans-serif;
-	background-color: orange;
+	background-color: silver;
 	font-family: arial;
+	
 	
 }
 
@@ -13,14 +14,16 @@ body {
 	background: #F1F1F1; 
 	border-bottom: 1px solid #D4D4D4; 
 	height: 25px;
+	
 }
 
 
 header{
 	/*background-color: rgb(235,159,51);*/
 	height: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	color:purple;
+	
 }
 
 h1 {
@@ -36,8 +39,8 @@ h1 {
     font-size: 16pt;
 }
 .loveable img{
-	width: 100px;
-	height: 120px;
+	width: 250px;
+	height: 180px;
 	float: right;
 }
 
@@ -112,7 +115,7 @@ h1 {
 }
 
 .featured-image {
-	max-width: 500px; 
+	max-width: 800px; 
 }
 
 .no-margin-top {
@@ -157,8 +160,8 @@ html, body {
 	/*border-radius: 20px;*/
 }
 .whatsApp-icon{
-	color: #fff;
-	background-color: rgb(37, 211, 102);
+	color: #ffffff;
+	background-color: green;
 	text-shadow: white;
 	width: 40px;
 	height: 40px;
@@ -168,13 +171,244 @@ html, body {
 	border-radius: 20px;
 
 }
+.phone-icon{
+	color: green;
+	/*background-color: white;*/
+	text-shadow: white;
+	width: 40px;
+	height: 40px;
+	font-size: 2em;
+	text-decoration-color: white;
+	/*text-align: center;*/
+	/*display: inline-block;*/
+}
+
+
+
+
+.port{
+padding-top: 40px;
+padding-bottom: 70px;
+text-align: center;
+color: black;
+padding: 8%;
+background-color: #ffffff;
+text-decoration-color: black;
+}
+.port .lorem h2{
+color: black;
+
+}
+.port .lorem p{
+    margin: 20px 70px 40px 50px;
+}
+.port .lorem .portfolios{
+    overflow: hidden;
+}
+.port .lorem .portfolios >div {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 15px;
+}
+.port .lorem .portfolios img{
+    width: 85%;
+   /* margin: 10px;*/
+    padding: 5%;
+    padding-left:10%;
+    padding-right: 10%;  
+    background-color: #ffffff;
+}
+
+
+
+/*<ABOUT>*/
+
+
+h1{
+	text-align: center;
+}
+.about{
+    background: white;
+}
+
+
+.aboutme{
+   color: black;
+    width: 90%;
+    margin: 5%;
+    padding-top:10%;
+}
+
+
+
+/*<CONTACT>*/
+
+.contact-me
+{
+background-color: #252e30;
+overflow: hidden;
+padding-top: 40px;
+padding-bottom: 70px;
+padding-left: 70px;
+}
+.contact-me .info-conts { 
+width: 50%;
+}
+.contact-me h2{ 
+color: #f6feff;
+}
+.contact-me p{
+color: #5d6162;
+}
+.contact-me p strong{
+color:#dae0e1;}
+.contact-me .form-contact{
+width: 50%;
+}
+.contact-me .form-contact label{
+color: #dae0e1;
+margin-bottom: 20px;
+display: block;}
+.contact-me .form-contact input[type="text"]
+{
+background-color:#708287;
+padding: 10px; 
+color: #FFF;
+border: 0;
+width: 70%;
+margin-bottom: 10px;
+}
+
+.contact-me .form-contact textarea
+{
+background-color:#708287;
+padding: 10pxpx; 
+color: #FFF;
+border: 0;
+width: 70%;
+margin-bottom: 15px;
+height: 300px;
+}
+.contact-me .form-contact input[type="submit"]
+{
+background-color: #322b2b;
+color: #d8eaea;
+margin-top: 10px;
+padding: 9px;
+width: 30%;
+}
+
+
+.footer
+{
+text-align: center;
+background-color: #191f21;
+padding: 20px 0;
+color: #5d6162;
+
+}
+
+.footer ul
+{
+padding-left: 0;
+list-style: none;
+margin: 10px 0 10px 0;
+/*float: right;*/
+}
+.footer ul li{
+display: inline-block;
+}
+.footer ul li i:hover  {
+color: #FFF;  
+}
+
+
+.fl-left{float: left;}
+p{
+line-height: 1.5; 
+color:#777;
+text-align: left;
+}
+h2 ,h3 {
+color: #777;
+}
+.my-button
+{
+border: 3px solid #6bec59;
+background: none;
+color: #6bec59;
+padding: 10px 30px;
+font-weight: bold;
+
+}
+
+@media only screen and(max-width: 900px){
+.info .panel ,.info .panel first child, .info .panel {
+width: 100%;
+padding: 0px;
+}
+}
+
+
+.resume{
+    width: 45%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: silver;
+
+}
+
+
+
+.skill{
+    /*border: 3px solid green;*/
+    width: 1000px;
+    text-align: center;
+    padding: 5%;
+    color: green;
+    margin: 0 auto;
+
+}
+
+
+
+<!-- <style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    
+}
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+  }
+   50% {
+    background-color: green;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+
+
 /*#top-bar {
 	width: 100%;
 	background: #F1F1F1; 
 	border-bottom: 1px solid #D4D4D4; 
 	height: 25px;
 }
-
 .normal-wrapper {
 	width: 900px;
 	margin: 0 auto;
@@ -182,12 +416,10 @@ html, body {
 	background: white;
 	overflow: auto;
 }
-
 h1 {
 	float: left;
 	margin: 21px 0 0 25px;
 }
-
 #loveable{
     list-style-type: none; 
     margin: 29px 0 0 0;
@@ -195,11 +427,9 @@ h1 {
     float: right;
     font-size: 16pt;
 }
-
 #loveable li {
     display: inline; 
 }
-
 #loveable li a:link, #loveable li a:visited, #loveable li a:active { 
     text-decoration: none; 
     color: #000000;
@@ -207,21 +437,17 @@ h1 {
     margin: 0;
     border-right: 2px solid #B4B4B4; 
 }
-
 #loveable li a:link.last-link {
     border-right: 0px;
 }
-
 #loveable li a:hover {
     color: #EB6361;
 }
-
 #top-color-splash {
 	width: 100%;
 	height: 4px;
 	background: #EB6361;
 }
-
 .one-third {
 	width: 40%;
 	float: left;
@@ -236,11 +462,9 @@ h1 {
 	text-align: right;
 	margin-top: 20px;
 }
-
 .featured-image {
 	max-width: 500px; 
 }
-
 .no-margin-top {
 	margin-top: 0; 
 }
